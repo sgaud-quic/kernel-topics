@@ -1,0 +1,7 @@
+name: Pre merge build on AWS
+on:
+  workflow_dispatch:
+  
+jobs:
+  build:
+    uses: ./.github/workflows/build.yml
